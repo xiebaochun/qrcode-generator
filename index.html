@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>二维码</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles/css_mobile_common.css">
+	<link rel="stylesheet" type="text/css" href="./styles/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+</head>
+<body>
+	<div class="wrap-content"> 
+		<div class="frame show" id="index"> 
+			<button type="button" class="btn btn-default index-bootom-btn" id="index-bootom-btn">制作</button>
+		</div>
+		<div class="frame" id="setting"> 
+			<div class="my-nav">
+				<button type="button" class="btn btn-default" id="setting-vav-text-btn">文字</button>
+				<button type="button" class="btn btn-default btn-primary" id="setting-vav-mingpian-btn">名片</button>
+			</div>
+			<div class="frame show" id="ming-pian"> 
+				<div class="input-group frame-input-group">
+				  <input type="text" class="form-control" placeholder="姓名" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="电话" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="公司名" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="职位" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="网址" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="邮箱" aria-describedby="basic-addon1">
+				  <input type="text" class="form-control" placeholder="二维码" aria-describedby="basic-addon1">
+				  <button type="button" class="btn btn-default" id="mingtpian-generate-btn">生成二维码</button>
+				</div>
+			</div>
+			<div class="frame" id="text">
+				<div class="input-group frame-input-group"> 
+					<input type="text" class="form-control" id="text-input" placeholder="输入框" aria-describedby="basic-addon1">
+					<button type="button" class="btn btn-default" id="text-generate-btn">生成二维码</button>
+				</div>
+			</div>
+		</div>
+		<div class="frame" id="result"> 
+			<div class="erweima-box"> 
+				<img class="erweima-img" id="erweima-img" src="">
+			
+			<p>长安图片可以保存二维码</p>
+			<button type="button" class="btn btn-default" id="result-back-btn">返回</button>
+			<hr>
+			</div>
+
+			<div class="result-options"> 
+				<p>自定义颜色</p>
+				
+			</div>
+		</div>
+	</div>
+    <!-- load js files -->
+	<script type="text/javascript" src="./scripts/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="./scripts/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./scripts/app.js"></script>
+
+</body>
+</html>

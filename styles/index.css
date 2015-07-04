@@ -1,0 +1,47 @@
+.wrap-content{
+
+}
+.frame{
+	position: absolute;
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+.index-bootom-btn{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	border-radius:0;
+}
+.frame-input-group{
+	margin: 0 auto !important;
+	padding: 10%;
+	width: 100%;
+}
+.frame-input-group input{
+	margin-bottom:  10px !important;
+	border-radius: 10px !important;
+}
+.my-nav{
+	width: 100% !important;
+	height:60px;
+	line-height: 80px;
+	text-align: center;
+}
+.my-nav->button{
+	margin: auto 0;
+}
+#text #text-input{
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+}
+.erweima-box{
+	padding: 20px;
+}
+.erweima-img{
+	display: inline-block;
+	height: 200px;
+    width: 200px;
+}
